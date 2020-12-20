@@ -1,0 +1,164 @@
+
+// 默认 晴天
+.weather-main
+  background-image -webkit-linear-gradient(-90deg, #3bbcff, #4af4ff)
+.weather-main #bg1
+  background-image url("../../assets/weather-bg/sun.jpg")
+  z-index 3
+
+
+// 晚上
+.weather-main.night
+  background-image: -webkit-linear-gradient(-90deg,#313877,#44abec)
+.weather-main.night #bg1
+  background-image url("../../assets/weather-bg/night.jpg")
+  z-index 3
+
+
+// 多云晚上
+.weather-main.W7.night
+  background-image: -webkit-linear-gradient(-90deg,#313877,#44abec)
+.weather-main.W7.night #bg1
+  background-image url("../../assets/weather-bg/nightyun.jpg")
+  z-index 3
+
+// 阴
+.weather-main.W1
+  background-image: -webkit-linear-gradient(-90deg,#86c3ca,#b5e9e8)
+.weather-main.W1 #bg1
+  background-image url("../../assets/weather-bg/yin.jpg")
+  z-index 3
+
+
+// 雨
+.weather-main.W2
+  background-image: -webkit-linear-gradient(-90deg,#43697f,#abd2d7)
+.weather-main.W2 #bg1
+  background-image url("../../assets/weather-bg/yu.jpg")
+  z-index 3
+
+
+// 雪
+.weather-main.W3
+  background-image: -webkit-linear-gradient(-90deg,#67a1dc,#a8e0f7)
+.weather-main.W3 #bg1
+  background-image url("../../assets/weather-bg/xue.jpg")
+  z-index 3
+
+
+// 大雨
+.weather-main.W4
+  background-image: -webkit-linear-gradient(-90deg,#81aedc,#a9def1)
+.weather-main.W4 #bg1
+  background-image url("../../assets/weather-bg/dayu.jpg")
+  z-index 3
+
+
+// 雾
+.weather-main.W5
+  background-image: -webkit-linear-gradient(-90deg,#9b9b96,#c1c1bc)
+.weather-main.W5 #bg1
+  background-image url("../../assets/weather-bg/wu.jpg")
+  z-index 3
+
+
+// 沙尘暴
+.weather-main.W6
+  background-image: -webkit-linear-gradient(-90deg,#c09461,#eedfa1)
+.weather-main.W6 #bg1
+  background-image url("../../assets/weather-bg/sha.jpg")
+  z-index 3
+
+
+// 多云
+.weather-main.W7
+  background-image: -webkit-linear-gradient(-90deg,#50ade8,#7ae0fa)
+.weather-main.W7 #bg1
+  background-image url("../../assets/weather-bg/duoyun.jpg")
+  z-index 3
+
+
+// 空气等级样式
+.air-box.level1
+  background-color #a3d765!important
+.air-box.level2
+  background-color #f0cc35!important
+.air-box.level3
+  background-color #f1ab62!important
+.air-box.level4
+  background-color #ef7f77!important
+.air-box.level5
+  background-color #b28ccb!important
+.air-box.level6
+  background-color #ad788a!important
+
+// 预警等级样式
+.waring-list.level1
+  &::before
+    background-color #7da0ec!important
+.waring-list.level2
+  &::before
+    background-color #f5d271!important
+.waring-list.level3
+  &::before
+    background-color #ef8c6b!important
+.waring-list.level4
+  &::before
+    background-color #ec807c!important
+
+// 生活指数
+.icon
+  &.chenlian
+    background-image url("../../assets/index/01.svg")
+  &.chuanyi
+    background-image url("../../assets/index/02.svg")
+  &.daisan
+    background-image url("../../assets/index/03.svg")
+  &.ganmao
+    background-image url("../../assets/index/04.svg")
+  &.ziwaixian
+    background-image url("../../assets/index/05.svg")
+  &.liangshai
+    background-image url("../../assets/index/06.svg")
+  &.lvyou
+    background-image url("../../assets/index/07.svg")
+  &.diaoyu
+    background-image url("../../assets/index/08.svg")
+
+// 空气质量
+.weather-air.level1
+  .air-pannel
+    background-image url("../../assets/air/01.png")!important
+    background-color #70defc!important
+    .air-level
+      background-color #a3d765!important
+.weather-air.level2
+  .air-pannel
+    background-image url("../../assets/air/02.png")!important
+    background-color #80d2e5!important
+    .air-level
+      background-color #f0cc35!important
+.weather-air.level3
+  .air-pannel
+    background-image url("../../assets/air/03.png")!important
+    background-color #9ad4d6!important
+    .air-level
+      background-color #f1ab62!important
+.weather-air.level4
+  .air-pannel
+    background-image url("../../assets/air/04.png")!important
+    background-color #9fc9c4!important
+    .air-level
+      background-color #ef7f77!important
+.weather-air.level5
+  .air-pannel
+    background-image url("../../assets/air/05.png")!important
+    background-color #9eada7!important
+    .air-level
+      background-color #b28ccb!important
+.weather-air.level6
+  .air-pannel
+    background-image url("../../assets/air/06.png")
+    background-color #929695!important
+    .air-level
+      background-color #ad788a!important
